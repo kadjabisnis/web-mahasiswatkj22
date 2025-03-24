@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#205688;
+  }
+  
+  header {
+    background-color: #b8b4f3;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .foto-profil {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .foto-profil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .tentang-diri {
+    text-align: left;
+  }
+  
+  h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    color: #1f1d1d;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #489739;
+    text-align: center;
+    padding: 20px;
+    margin-top: 7rem;
+    bottom: 0;
+  }
+  
+  /* Media Queries untuk Responsivitas */
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }  
+}
