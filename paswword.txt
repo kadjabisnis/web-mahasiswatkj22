@@ -1,0 +1,19 @@
+Admin:
+
+Username: admin
+Password: admin_password (pastikan untuk menggantinya dengan password yang lebih aman dalam praktik nyata)
+Mahasiswa:
+
+Username: mahasiswa
+Password: mahasiswa_password (pastikan untuk menggantinya dengan password yang lebih aman dalam praktik nyata)
+
+sql untuk tabel users
+
+
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    role ENUM('admin', 'mahasiswa') NOT NULL
+);
